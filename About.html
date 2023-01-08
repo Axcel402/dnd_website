@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0" />
+    <title>Hiras D&D adventures</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/e294e74370.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <section class="sub-header">
+      <nav>
+        <a href="dnd.html"><img src="images/logo.jpg" /></a>
+        <div class="nav-links" id="navLinks">
+          <i class="fa fa-solid fa-xmark" onclick="hideMenu()"></i>
+          <ul>
+            <li><a href="dnd.html">HOME</a></li>
+            <li><a href="About.html">ABOUT</a></li>
+            <li><a href="World.html">WORLD</a></li>
+            <li><a href="Calender.html">CALENDER</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+            <li><a href="Comments.html">COMMENTS</a></li>
+          </ul>
+        </div>
+        <i class="fa fa-solid fa-bars" onclick="showMenu()"></i>
+      </nav>
+      <h1>About The Game</h1>
+    </section>
+
+    <!-----content---->
+    <section class="about-it">
+      <div class="row">
+        <div class="about-col">
+          <h1>The Uncanny crews campaign</h1>
+          <p>The game is set</p>
+          <a href="" class="hero-btn red-btn">Look For More!</a>
+        </div>
+        <div class="about-it">
+          <img src="images/D20-clipart-3.png" >
+        </div>
+      </div>
+
+    </section>
+
+   
+    <!--about me-->
+    <section class="abt">
+      <h4>About me</h4>
+      <p>My name is Axcel Suarez, otherwise known as Hira. ive been a dungeon master for about 3 years now, <br> im looking to develop not only my skills as a dungeon master, but also as a programmer and bringing those two worlds together.</p>
+      <div class="icons">
+        <i class="fa fa-brands fa-google"></i>
+        <i class="fa fa-brands fa-linkedin"></i>
+        <i class="fa fa-brands fa-discord"></i>
+        
+        
+      </div>
+      <p>Made with <i class="fa fa-solid fa-dice-d20"></i> by Axcel Suarez </p>
+    </section>
+
+    <!--JavaScript for Toggle Menu-->
+    <script>
+      var navlinks = document.getElementById("navLinks");
+
+      function showMenu() {
+        navLinks.style.right = "0";
+      }
+      function hideMenu() {
+        navLinks.style.right = "-200px";
+      }
+    </script>
+  </body>
+</html>

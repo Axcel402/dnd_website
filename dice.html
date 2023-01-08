@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0" />
+    <title>Hiras D&D adventures</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <section class="die">
+      <section class ="dice-header">
+      <nav>
+        <a href="dnd.html"><img src="images/logo.jpg" /></a>
+        <div class="nav-links" id="navLinks">
+          <i class="fa fa-solid fa-xmark" onclick="hideMenu()"></i>
+          <ul>
+            <li><a href="dnd.html">HOME</a></li>
+            <li><a href="About.html">ABOUT</a></li>
+            <li><a href="World.html">WORLD</a></li>
+            <li><a href="Calender.html">CALENDER</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+            <li><a href="Comments.html">COMMENTS</a></li>
+          </ul>
+        </div>
+        <i class="fa fa-solid fa-bars" onclick="showMenu()"></i>
+      </nav>
+    </section>
+    <section class="Dice-boxs">
+      <h1>Dice Roll</h1>
+      <label for="Num">How Many Die Do You Want To Roll?</label><br>
+      <input type="number" class="Num"><br>
+      <label for="Num1">Which Die Do You Want To Roll? </label><br>
+      <input type="number" class="Num1"><br>
+      <button class="D4">D4</button>
+      <button class="D6">D6</button>
+      <button class="D8">D8</button>
+      <button class="D10">D10</button>
+      <button class="D12">D12</button>
+      <button class="D20">D20</button>
+
+      <button class="Randy">Ran</button>
+      <script src="dice.js"></script>
+    </section>
+    <section class="results">
+    <div class="sec2">
+      <h1 class = Result-holder>Results</h1>
+    </div>
+  </section>
+  
+  <h1 class="RanNum">888</h1>
+  </body>
+</html>

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html class="Com">
+  <head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0" />
+    <title>Hiras D&D adventures</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/e294e74370.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body class="Com_1">
+    <section class="headers">
+      <nav>
+        <a href="dnd.html"><img src="images/logo.jpg" /></a>
+        <div class="nav-links" id="navLinks">
+          <i class="fa fa-solid fa-xmark" onclick="hideMenu()"></i>
+          <ul>
+            <li><a href="dnd.html">HOME</a></li>
+            <li><a href="About.html">ABOUT</a></li>
+            <li><a href="World.html">WORLD</a></li>
+            <li><a href="Calender.html">CALENDER</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+            <li><a href="Comments.html">COMMENTS</a></li>
+          </ul>
+        </div>
+        <i class="fa fa-solid fa-bars" onclick="showMenu()"></i>
+      </nav>
+
+      <div class="text-box">
+        <h1>Comment Section</h1>
+      </div>
+    </section>
+    <section class="Comments-section">
+      <!-- Form for entering a comment -->
+      <form id="comment-form">
+        <textarea
+          id="comment-text"
+          placeholder="Enter your comment here"
+        ></textarea>
+        <button type="submit">Submit</button>
+      </form>
+      <!-- Div for displaying the comments -->
+      <div id="comments">
+        <!-- Each comment will be a p element -->
+        <p></p>
+      </div>
+    </section>
+
+    <script src="/comments.js"></script>
+  </body>
+</html>
